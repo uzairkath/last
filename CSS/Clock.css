@@ -1,0 +1,60 @@
+.clock {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px;
+  color: #FFF;
+  background: #1e1e1e;
+  }
+  .clock ul {
+  width: 350px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+ 
+
+  }
+  
+  .clock ul li {
+  display: inline;
+  font-size: 5em;
+  text-align: center;
+  font-family: "Arial", Helvetica, sans-serif;
+  }
+  #Date { 
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 40px;
+  }
+  
+  #point {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px
+  }
+  /* Animasi Detik Kedap - Kedip */
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+  
+.clock1 {
+  background-color: #1e1e1e;
+  color: #fff;
+  position: absolute;
+  padding: 10px 20px;
+  font-size: 40px;
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50% );
+}
